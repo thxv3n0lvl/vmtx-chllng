@@ -48,3 +48,7 @@ There are other "patterns" like *step fragments* or *steps definitions*, but I d
 
 - How long it took?
 	- For this one specifically around 5 hours setting up the env and creating the page objects and finding the elements through `uiautomator-viewer` and finally hooking up `allure`.
+
+	## Report preview
+
+	![Preview](https://github.com/thxv3n0lvl/vmtx-chllng/blob/main/assets/test-report.png)
