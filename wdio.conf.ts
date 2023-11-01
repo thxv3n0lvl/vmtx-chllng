@@ -23,7 +23,7 @@ export const config: Options.Testrunner = {
         'appium:deviceName': 'emulator-5554', // NOTE: Update according your device
         'appium:platformVersion': '14',
         'appium:automationName': 'UiAutomator2',
-        'appium:app': './challenge/uamp.apk', // Path to your native app
+        'appium:app': './assets/uamp.apk', // Path to your native app
         'appium:appPackage': 'com.example.android.uamp.next', // Package name of your app
         'appium:appActivity': 'com.example.android.uamp.MainActivity', // App activity of the app
         'appium:autoGrantPermissions': true,
