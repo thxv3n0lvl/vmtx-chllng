@@ -1,3 +1,6 @@
+## Description
+This is a small sample of webdriverio test framework configured to execute tests against an Android device. 
+
 ## Install
 
 Install everything
