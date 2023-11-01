@@ -35,20 +35,7 @@ This is going to prompt a local setup for Allure and use the already generated r
 Go to URL indicated in the CLI to access the report if your browser doesn't open automatically.
 Regulary it opens on: http://localhost:43351 
 
-## FAQ
-- Why you used webdriverio?
-	- A driver's client is needed in order to use Appium, I chose WDIO because it has a good CLI tool that helps on the setup.
 
-- Why that small amount of tests?
-	- Because the apk used doesn't have much functionality, also this sort of tests are brittle and flaky.
+## Report preview
 
-- What's the rationale behind the structure used?
-	- My idea here is to show that I know what a Page Object is and that I don't like to use it as it's an unecessary abstraction. I prefer pure functions.
-There are other "patterns" like *step fragments* or *steps definitions*, but I don't think is necessary to showcase that in here as this is not gonna scale up and I really want to finish the challenge so it can be seen by the reviewer.
-
-- How long it took?
-	- For this one specifically around 5 hours setting up the env and creating the page objects and finding the elements through `uiautomator-viewer` and finally hooking up `allure`.
-
-	## Report preview
-
-	![Preview](https://github.com/thxv3n0lvl/vmtx-chllng/blob/main/assets/test-report.png)
+![Preview](https://github.com/thxv3n0lvl/vmtx-chllng/blob/main/assets/test-report.png)
